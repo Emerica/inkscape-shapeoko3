@@ -1,10 +1,11 @@
-MakerBot Unicorn G-Code Output for Inkscape
+Shapeoko3 Drawing/Laser G-Code Output for Inkscape
 ===========================================
 
 This is an Inkscape extension that allows you to save your Inkscape drawings as
-G-Code files suitable for plotting with the [MakerBot Unicorn Pen Plotter](http://store.makerbot.com/makerbot-unicorn-pen-plotter-kit.html).
+G-Code files suitable for plotting with the Shapeoko3
 
-Author: [Marty McGuire](http://github.com/martymcguire)
+Author: [Marty McGuire](http://github.com/martymcguire) Inkscape-Unicorn
+Forked for Shapeoko By Emerica 
 
 Website: [http://github.com/martymcguire/inkscape-unicorn](http://github.com/martymcguire/inkscape-unicorn)
 
@@ -12,6 +13,7 @@ Credits
 =======
 
 * Marty McGuire pulled this all together into an Inkscape extension.
+* Emerica to mod it for shapeoko
 * [Inkscape](http://www.inkscape.org/) is an awesome open source vector graphics app.
 * [Scribbles](https://github.com/makerbot/Makerbot/tree/master/Unicorn/Scribbles%20Scripts) is the original DXF-to-Unicorn Python script.
 * [The Egg-Bot Driver for Inkscape](http://code.google.com/p/eggbotcode/) provided inspiration and good examples for working with Inkscape's extensions API.
@@ -43,14 +45,13 @@ Usage
 	* Save your file.
 * Preview
 	* For OS X, [Pleasant3D](http://www.pleasantsoftware.com/developer/pleasant3d/index.shtml) is great for this.
-	* For other operating systems... I don't know!
+	* OpenScam!
 * Print!
-	* Open your `.gcode` file in [ReplicatorG](http://replicat.org/)
-	* Set up your Unicorn and pen.
-	* Center your build platform.
-	* Click the **Build** button!
+	* Open your `.gcode` file in Carbide Motion
+	* Center your work, set your pen, zero your machine.
+	* Run
 
-TODOs
+Marty - TODOs
 =====
 
 * Rename `*PolyLine` stuff to `*Path` to be less misleading.
@@ -58,3 +59,5 @@ TODOs
 * Parameterize smoothness for curve approximation.
 * Use native curve G-Codes instead of converting to paths?
 * Include example templates?
+
+
