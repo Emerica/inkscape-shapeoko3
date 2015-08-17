@@ -33,7 +33,6 @@ Usage
 =====
 
 * Size and locate your image appropriately:
-	* The CupCake CNC build platform size is 100mm x 100mm.
 	* Setting units to **mm** in Inkscape makes it easy to size your drawing.
 	* The extension will automatically attempt to center everything.
 * Convert all text to paths:
